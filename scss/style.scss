@@ -1,0 +1,29 @@
+@import url(../css/reset.css);
+
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgb(73, 3, 3);
+
+    &__title {
+        color: white;
+        text-align: center;
+    }
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item{
+        width: 400px;
+        &_img {
+            
+            object-fit: cover;
+        }
+    }
+
+    
+}

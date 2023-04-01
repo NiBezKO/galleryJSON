@@ -1,0 +1,14 @@
+@import url(../css/reset.css);
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #490303;
+}
+
+.header__title {
+  color: white;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
